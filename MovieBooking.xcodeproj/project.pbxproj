@@ -13,6 +13,10 @@
 		E9D0F61D2A7D108C0060357F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D0F61C2A7D108C0060357F /* Preview Assets.xcassets */; };
 		E9D0F6282A7D11940060357F /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6272A7D11940060357F /* TicketView.swift */; };
 		E9D0F62A2A7D13FC0060357F /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6292A7D13FC0060357F /* CircleBackground.swift */; };
+		E9D0F62D2A7D1E1C0060357F /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F62C2A7D1E1C0060357F /* Ticket.swift */; };
+		E9D0F62F2A7D1E660060357F /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F62E2A7D1E660060357F /* TicketData.swift */; };
+		E9D0F6322A7D228B0060357F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6312A7D228B0060357F /* Extensions.swift */; };
+		E9D0F6342A7D33BB0060357F /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6332A7D33BB0060357F /* Tickets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		E9D0F61C2A7D108C0060357F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9D0F6272A7D11940060357F /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		E9D0F6292A7D13FC0060357F /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		E9D0F62C2A7D1E1C0060357F /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		E9D0F62E2A7D1E660060357F /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		E9D0F6312A7D228B0060357F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E9D0F6332A7D33BB0060357F /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,8 @@
 		E9D0F6142A7D108B0060357F /* MovieBooking */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0F6302A7D22830060357F /* Utils */,
+				E9D0F62B2A7D1E120060357F /* Cards */,
 				E9D0F6262A7D11810060357F /* UI */,
 				E9D0F6252A7D117D0060357F /* Data */,
 				E9D0F6242A7D11790060357F /* Buttons */,
@@ -93,6 +103,7 @@
 		E9D0F6252A7D117D0060357F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0F62E2A7D1E660060357F /* TicketData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -103,6 +114,23 @@
 				E9D0F6292A7D13FC0060357F /* CircleBackground.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		E9D0F62B2A7D1E120060357F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				E9D0F62C2A7D1E1C0060357F /* Ticket.swift */,
+				E9D0F6332A7D33BB0060357F /* Tickets.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		E9D0F6302A7D22830060357F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9D0F6312A7D228B0060357F /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +205,12 @@
 			files = (
 				E9D0F6282A7D11940060357F /* TicketView.swift in Sources */,
 				E9D0F6182A7D108B0060357F /* ContentView.swift in Sources */,
+				E9D0F62D2A7D1E1C0060357F /* Ticket.swift in Sources */,
+				E9D0F62F2A7D1E660060357F /* TicketData.swift in Sources */,
 				E9D0F6162A7D108B0060357F /* MovieBookingApp.swift in Sources */,
 				E9D0F62A2A7D13FC0060357F /* CircleBackground.swift in Sources */,
+				E9D0F6322A7D228B0060357F /* Extensions.swift in Sources */,
+				E9D0F6342A7D33BB0060357F /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
