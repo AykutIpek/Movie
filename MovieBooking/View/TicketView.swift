@@ -35,6 +35,8 @@ struct TicketView: View {
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                 
+                Tickets()
+                    .padding()
 
             }
             .padding(.horizontal, 20)
