@@ -17,6 +17,8 @@
 		E9D0F62F2A7D1E660060357F /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F62E2A7D1E660060357F /* TicketData.swift */; };
 		E9D0F6322A7D228B0060357F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6312A7D228B0060357F /* Extensions.swift */; };
 		E9D0F6342A7D33BB0060357F /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6332A7D33BB0060357F /* Tickets.swift */; };
+		E9D0F6362A7D46F90060357F /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6352A7D46F90060357F /* TabData.swift */; };
+		E9D0F6382A7D48780060357F /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0F6372A7D48780060357F /* CustomTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		E9D0F62E2A7D1E660060357F /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
 		E9D0F6312A7D228B0060357F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E9D0F6332A7D33BB0060357F /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		E9D0F6352A7D46F90060357F /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		E9D0F6372A7D48780060357F /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D0F62E2A7D1E660060357F /* TicketData.swift */,
+				E9D0F6352A7D46F90060357F /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D0F6292A7D13FC0060357F /* CircleBackground.swift */,
+				E9D0F6372A7D48780060357F /* CustomTabbar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -207,7 +213,9 @@
 				E9D0F6182A7D108B0060357F /* ContentView.swift in Sources */,
 				E9D0F62D2A7D1E1C0060357F /* Ticket.swift in Sources */,
 				E9D0F62F2A7D1E660060357F /* TicketData.swift in Sources */,
+				E9D0F6362A7D46F90060357F /* TabData.swift in Sources */,
 				E9D0F6162A7D108B0060357F /* MovieBookingApp.swift in Sources */,
+				E9D0F6382A7D48780060357F /* CustomTabbar.swift in Sources */,
 				E9D0F62A2A7D13FC0060357F /* CircleBackground.swift in Sources */,
 				E9D0F6322A7D228B0060357F /* Extensions.swift in Sources */,
 				E9D0F6342A7D33BB0060357F /* Tickets.swift in Sources */,
