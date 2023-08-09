@@ -46,8 +46,8 @@ struct Line: Shape {
 
 struct NavigationUtil {
     static func popToRootView() {
-//        findNavigationController(viewController: UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController)?
-//            .popToRootViewController(animated: true)
+        findNavigationController(viewController: UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController)?
+            .popToRootViewController(animated: true)
     }
     static func findNavigationController(viewController: UIViewController?) -> UINavigationController? {
         guard let viewController = viewController else {
