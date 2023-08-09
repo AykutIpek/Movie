@@ -19,12 +19,17 @@ struct ScrollSection: View {
                 .padding(.horizontal, 20)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 20.0) {
+                HStack(spacing: 10.0) {
                     ForEach(posters.indices, id: \.self) { index in
-                        Image(posters[index])
-                            .resizable()
-                            .frame(width: 100, height: 130)
-                            .cornerRadius(20)
+                        NavigationLink {
+                            BookingView()
+                        } label: {
+                            Image(posters[index])
+                                .resizable()
+                                .frame(width: 120, height: 155)
+                                .cornerRadius(5)
+                        }
+
                     }
                 }
                 .offset(x: 20)
